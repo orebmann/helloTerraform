@@ -8,11 +8,11 @@ terraform {
 }
 
   
-variable aws_access_key {
+variable "aws_access_key" {
   description = "The AWS API key needed to deploy resources"
 }
 
-variable aws_secret_key {
+variable "aws_secret_key" {
   description = "The AWS API key needed to deploy resources"
 }
 
