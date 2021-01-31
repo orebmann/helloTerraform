@@ -7,10 +7,6 @@ terraform {
   }
 }
 
-variable "aws_apikey" {
-  type = string
-}
-
 provider "aws" {
   profile = "default"
   region  = "us-west-2"
