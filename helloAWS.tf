@@ -1,10 +1,12 @@
+terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
       version = "~> 2.70"
     }
   }
-  
+} 
+
 variable "aws_access_key" {
   description = "The AWS API key needed to deploy resources"
 }
